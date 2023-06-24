@@ -33,11 +33,16 @@ exercice 3
 document.getElementById('calculator-form').addEventListener('submit', function(event) {
   event.preventDefault();
 
+  #The code retrieves the values of "first-number," "second-number," and "operation" input elements from the HTML document and assigns them to the corresponding variables.
+
   var firstNumber = document.getElementById('first-number').value;
   var secondNumber = document.getElementById('second-number').value;
   var operation = document.getElementById('operation').value;
 
   var result;
+
+
+  # The code performs arithmetic operations based on the value of the "operation" variable and calculates the result using the "firstNumber" and "secondNumber" variables.
 
   switch (operation) {
     case "add":
